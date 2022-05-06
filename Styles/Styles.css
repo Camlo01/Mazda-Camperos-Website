@@ -7,6 +7,12 @@
 
 /* COLORES */
 :root {
+  --Red-Light: #f72d1c;
+  --Red-Medium: #d32024;
+  --Red-Dark: #a83228;
+  --Black-Font: #000;
+  --Gray-Dark: #333132;
+  --Golden: #daab42;
 }
 
 * {
