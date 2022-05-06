@@ -1,0 +1,24 @@
+/*  ORDEN DOCUMENTO
+1. Posicionaminto
+2. Modelo de caja (Box Model)
+3. Tipografía
+4. Efectos Visuales
+5. otros  */
+
+/* COLORES */
+:root {
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* -----------------------------------------------------------------
+---------------------------- HEADER --------------------------------
+-------------------------------------------------------------------- */
