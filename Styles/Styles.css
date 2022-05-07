@@ -8,8 +8,10 @@
 /* COLORES */
 :root {
   --Red-Light: #f72d1c;
-  --Red-Medium: #d32024;
-  --Red-Dark: #a83228;
+  --Red-Medium: #ae0e14;
+  --Red-Dark: #83080c;
+  --Red-Dark-Extreme: #2b0303;
+
   --Black-Font: #000;
   --Gray-Dark: #333132;
   --Golden: #daab42;
@@ -23,8 +25,112 @@
 
 html {
   font-size: 62.5%;
+  height: 1500px;
+}
+
+@font-face {
+  font-family: 'verdana';
+  src: url();
+}
+@font-face {
+  font-family: 'Palatino';
+  src: url();
+}
+@font-face {
+  font-family: Quicksand;
+  src: url();
+}
+@font-face {
+  font-family: Franklin Gothic Demi;
+  src: url();
+}
+@font-face {
+  font-family: Impact;
+  src: url();
+}
+@font-face {
+  font-family: ;
+  src: url();
 }
 
 /* -----------------------------------------------------------------
 ---------------------------- HEADER --------------------------------
 -------------------------------------------------------------------- */
+
+.header-nav {
+  font-size: 2.2rem;
+  background-color: var(--Gray-Dark);
+  display: inline;
+  align-items: center;
+  width: 100%;
+  padding: 0px 0px;
+  justify-content: space-evenly;
+  position: fixed;
+  z-index: 1;
+  -webkit-box-shadow: 1px -7px 19px 9px rgba(0, 0, 0, 0.34);
+  box-shadow: 1px -7px 19px 9px rgba(0, 0, 0, 1.2);
+}
+
+.navbar-nombre {
+  padding: 20px;
+  display: inline-block;
+  margin-left: 10px;
+  color: white;
+}
+
+.button-responsive-menu {
+  position: relative;
+  border: 2px solid var(--Red-Light);
+  color: var(--Red-Light);
+  border-radius: 7px;
+  width: 38px;
+  height: 38px;
+  padding: 6px;
+  margin-top: 9px;
+  margin-right: 30px;
+  float: right;
+}
+
+#check-navbar {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .header-navbar {
+    display: none;
+    position: fixed;
+  }
+  .header-navbar ul {
+    background-color: var(--Red-Medium);
+    width: 100%;
+  }
+
+  .header-navbar li {
+    text-align: center;
+    list-style: none;
+    border: 1px solid var(--Gray-Dark);
+  }
+
+  .header-navbar li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 30px;
+    width: 100%;
+  }
+
+  .header-navbar li:hover {
+    background-color: var(--Red-Dark);
+  }
+  .header-navbar li a:hover {
+    color: var(--Red-Dark-Extreme);
+  }
+}
+.button-responsive-menu:hover {
+  border: 4px solid var(--Red-Light);
+}
+
+#check-navbar:checked ~ .header-navbar {
+  display: block;
+  width: 100%;
+}
