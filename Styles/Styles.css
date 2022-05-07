@@ -17,6 +17,35 @@
   --Golden: #daab42;
 }
 
+@font-face {
+  font-family: "verdana";
+  src: url(/Fonts/verdana-font-family/verdana.ttf);
+}
+@font-face {
+  font-family: "Palatino";
+  src: url(/Fonts/Palatino/pala.ttf);
+}
+@font-face {
+  font-family: Quicksand;
+  src: url(/Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: Franklin Gothic Demi;
+  src: url(/Fonts/Franklin_Gothic_Demi_Regular/Franklin\ Gothic\ Demi\ Regular.ttf);
+}
+@font-face {
+  font-family: Impact;
+  src: url(/Fonts/impact/impact.ttf);
+}
+@font-face {
+  font-family: Palanquin;
+  src: url(/Fonts/Palanquin_Dark/PalanquinDark-Bold.ttf);
+}
+@font-face {
+  font-family: ozda;
+  src: url(/Fonts/ozda/ozda.ttf);
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -26,31 +55,7 @@
 html {
   font-size: 62.5%;
   height: 1500px;
-}
-
-@font-face {
-  font-family: 'verdana';
-  src: url();
-}
-@font-face {
-  font-family: 'Palatino';
-  src: url();
-}
-@font-face {
-  font-family: Quicksand;
-  src: url();
-}
-@font-face {
-  font-family: Franklin Gothic Demi;
-  src: url();
-}
-@font-face {
-  font-family: Impact;
-  src: url();
-}
-@font-face {
-  font-family: ;
-  src: url();
+  font-family: ozda;
 }
 
 /* -----------------------------------------------------------------
