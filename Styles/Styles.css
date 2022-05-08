@@ -18,31 +18,37 @@
 }
 
 @font-face {
-  font-family: "verdana";
+  font-family: "Verdana";
   src: url(/Fonts/verdana-font-family/verdana.ttf);
 }
+
 @font-face {
   font-family: "Palatino";
   src: url(/Fonts/Palatino/pala.ttf);
 }
+
 @font-face {
-  font-family: Quicksand;
+  font-family: "Quicksand";
   src: url(/Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
 }
+
 @font-face {
-  font-family: Franklin Gothic Demi;
+  font-family: "Franklin Gothic Demi";
   src: url(/Fonts/Franklin_Gothic_Demi_Regular/Franklin\ Gothic\ Demi\ Regular.ttf);
 }
+
 @font-face {
-  font-family: Impact;
+  font-family: "Impact";
   src: url(/Fonts/impact/impact.ttf);
 }
+
 @font-face {
-  font-family: Palanquin;
+  font-family: "Palanquin Dark";
   src: url(/Fonts/Palanquin_Dark/PalanquinDark-Bold.ttf);
 }
+
 @font-face {
-  font-family: ozda;
+  font-family: "Ozda";
   src: url(/Fonts/ozda/ozda.ttf);
 }
 
@@ -55,7 +61,7 @@
 html {
   font-size: 62.5%;
   height: 1500px;
-  font-family: ozda;
+  font-family: Palanquin Dark;
 }
 
 /* -----------------------------------------------------------------
@@ -81,6 +87,7 @@ html {
   display: inline-block;
   margin-left: 10px;
   color: white;
+  font-family: "Ozda";
 }
 
 .button-responsive-menu {
@@ -105,6 +112,7 @@ html {
     display: none;
     position: fixed;
   }
+
   .header-navbar ul {
     background-color: var(--Red-Medium);
     width: 100%;
@@ -127,15 +135,17 @@ html {
   .header-navbar li:hover {
     background-color: var(--Red-Dark);
   }
+
   .header-navbar li a:hover {
     color: var(--Red-Dark-Extreme);
   }
 }
+
 .button-responsive-menu:hover {
   border: 4px solid var(--Red-Light);
 }
 
-#check-navbar:checked ~ .header-navbar {
+#check-navbar:checked~.header-navbar {
   display: block;
   width: 100%;
 }
