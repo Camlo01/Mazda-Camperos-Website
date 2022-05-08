@@ -167,7 +167,7 @@ html {
 .header-inicio {
   position: relative;
   top: 59px;
-  background-image: url(///images/phone/inicio/Inicio.jpg);
+  background-image: url(/images/phone/inicio/Inicio.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
