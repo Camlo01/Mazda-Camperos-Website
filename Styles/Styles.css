@@ -1,27 +1,27 @@
 /* verdana */
 @font-face {
   font-family: "Verdana";
-  src: url(/Fonts/verdana-font-family/verdana.ttf);
+  src: url(/Styles/Fonts/verdana-font-family/verdana.ttf);
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Verdana";
-  src: url(/Fonts/verdana-font-family/verdana-bold.ttf);
+  src: url(/Styles/Fonts/verdana-font-family/verdana-bold.ttf);
   font-weight: 800;
 }
 
 /* Palatino */
 @font-face {
   font-family: "Palatino";
-  src: url(/Fonts/Palatino/pala.ttf);
+  src: url(/Styles/Fonts/Palatino/pala.ttf);
   font-weight: 300;
 }
 
 
 @font-face {
   font-family: "Palatino";
-  src: url(/Fonts/Palatino/palab.ttf);
+  src: url(/Styles/Fonts/Palatino/palab.ttf);
   font-weight: 500;
 }
 
@@ -29,45 +29,45 @@
 
 @font-face {
   font-family: "Quicksand";
-  src: url(/Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+  src: url(/Styles/Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
 }
 
 
 /* Franklin Gothic Demi */
 @font-face {
   font-family: "Franklin Gothic Demi";
-  src: url(/Fonts/Franklin_Gothic_Demi_Regular/Franklin\ Gothic\ Demi\ Regular.ttf);
+  src: url(/Styles/Fonts/Franklin_Gothic_Demi_Regular/Franklin\ Gothic\ Demi\ Regular.ttf);
 }
 
 /* Impact */
 @font-face {
   font-family: "Impact";
-  src: url(/Fonts/impact/impact.ttf);
+  src: url(/Styles/Fonts/impact/impact.ttf);
 }
 
 /* Palaquin Dark */
 
 @font-face {
   font-family: "Palanquin Dark";
-  src: url(/Fonts/Palanquin_Dark/PalanquinDark-Regular.ttf);
+  src: url(/Styles/Fonts/Palanquin_Dark/PalanquinDark-Regular.ttf);
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Palanquin Dark";
-  src: url(/Fonts/Palanquin_Dark/PalanquinDark-Medium.ttf);
+  src: url(/Styles/Fonts/Palanquin_Dark/PalanquinDark-Medium.ttf);
   font-weight: 500;
 }
 
 @font-face {
   font-family: "Palanquin Dark";
-  src: url(/Fonts/Palanquin_Dark/PalanquinDark-SemiBold.ttf);
+  src: url(/Styles/Fonts/Palanquin_Dark/PalanquinDark-SemiBold.ttf);
   font-weight: 700;
 }
 
 @font-face {
   font-family: "Palanquin Dark";
-  src: url(/Fonts/Palanquin_Dark/PalanquinDark-Bold.ttf);
+  src: url(/Styles/Fonts/Palanquin_Dark/PalanquinDark-Bold.ttf);
   font-weight: 800;
 }
 
@@ -75,9 +75,10 @@
 
 @font-face {
   font-family: "Ozda";
-  src: url(/Fonts/ozda/ozda.ttf);
+  src: url(/Styles/Fonts/ozda/ozda.ttf);
 }
 
+/* Variables de colores */
 /* COLORES */
 :root {
   --Red-Light: #f72d1c;
@@ -200,12 +201,12 @@ html {
 .header-inicio {
   position: relative;
   top: 59px;
+  min-height: 568px;
+  width: 100%;
   background-image: url("/images/phone/inicio/Inicio-wallpaper.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 568px;
-  width: 100%;
 }
 
 .header-inicio h1 {
