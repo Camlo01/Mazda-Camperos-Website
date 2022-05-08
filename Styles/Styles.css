@@ -44,7 +44,13 @@
 
 @font-face {
   font-family: "Palanquin Dark";
+  src: url(/Fonts/Palanquin_Dark/PalanquinDark-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Palanquin Dark";
   src: url(/Fonts/Palanquin_Dark/PalanquinDark-Bold.ttf);
+  font-weight: 800;
 }
 
 @font-face {
@@ -68,8 +74,13 @@ html {
 ---------------------------- HEADER --------------------------------
 -------------------------------------------------------------------- */
 
+
+/* ------- Barra de navegación ------- */
+
 .header-nav {
-  font-size: 2.2rem;
+  font-family: "Verdana";
+  font-size: 2.5rem;
+  font-weight: 800;
   background-color: var(--Gray-Dark);
   display: inline;
   align-items: center;
@@ -86,6 +97,7 @@ html {
   padding: 20px;
   display: inline-block;
   margin-left: 10px;
+  font-size: 1.8rem;
   color: white;
   font-family: "Ozda";
 }
@@ -148,4 +160,125 @@ html {
 #check-navbar:checked~.header-navbar {
   display: block;
   width: 100%;
+}
+
+/* ------- Inicio ------- */
+
+.header-inicio {
+  position: relative;
+  top: 59px;
+  background-image: url(/images/phone/inicio/Inicio.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 568px;
+}
+
+.header-inicio h1 {
+  color: white;
+  font-family: Verdana;
+  font-size: 3rem;
+  line-height: 36px;
+  align-items: center;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+  width: 239px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-inicio a img {
+  width: 117px;
+  display: block;
+  margin: 320px auto;
+}
+
+
+/* -----------------------------------------------------------------
+---------------------------- MAIN  ---------------------------------
+-------------------------------------------------------------------- */
+
+main {
+  padding-top: 60px;
+}
+
+.main-nosotros {
+  padding-top: 40px;
+  -webkit-box-shadow: 0px 3px 16px -4px #000000;
+  box-shadow: 0px 3px 16px -4px #000000;
+  min-height: 620px;
+}
+
+.main-nosotros h2 {
+  font-family: "Impact";
+  font-size: 2.5rem;
+  position: relative;
+  padding-left: 20px;
+  color: rgb(102, 102, 102);
+}
+
+.nosotros--div {
+  display: flex;
+  justify-content: center;
+  margin: 45px auto;
+}
+
+.nosotros--div img {
+  width: 106px;
+  height: 106px;
+}
+
+.nosotros--div h3 {
+  font-family: "Impact";
+  width: 145px;
+  font-size: 4rem;
+  line-height: 40px;
+  position: relative;
+  top: 10px;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+}
+
+.main-nosotros p {
+  font-family: "Palanquin Dark";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 16.01px;
+  width: 270px;
+  text-align: justify;
+  margin: 0 auto;
+  padding-bottom: 90px;
+
+}
+
+
+.main-nosotros p span {
+  color: var(--Golden);
+}
+
+.header--button {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  color: white;
+  width: 221px;
+  height: 60px;
+  background: var(--Golden);
+  padding-top: 22px;
+  border-radius: 50px;
+  margin-bottom: 70px;
+  margin: 0 auto;
+  -webkit-box-shadow: 0px 5px 17px -5px rgba(0, 0, 0, 0.61);
+  box-shadow: 0px 5px 17px -1px rgba(0, 0, 0, 0.61);
+}
+
+.header--button p {
+  font-family: Arial;
+  font-weight: 700;
+  font-size: 3.3rem;
+  text-align: center;
+  color: white;
+  position: relative;
+  left: -25px;
 }
