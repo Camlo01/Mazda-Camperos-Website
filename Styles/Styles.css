@@ -344,15 +344,65 @@ main {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 16.01px;
-  width: 250px;
+  width: 260px;
   text-align: justify;
   margin: 0 auto;
   padding-bottom: 30px;
 
 }
 
-.main-servicio img{
+.main-servicio img {
   display: block;
   margin: 0 auto;
   padding-bottom: 30px;
+}
+
+/* ----- Catálogo ----- */
+
+.main-catalogo {
+  padding-top: 40px;
+  padding-bottom: 110px;
+  -webkit-box-shadow: 0px 3px 15px 0px #000000;
+  box-shadow: 0px 3px 15px 0px #000000;
+  margin-bottom: 100px;
+}
+
+.main-catalogo h2 {
+
+  font-family: "Impact";
+  font-size: 2.5rem;
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  color: rgb(102, 102, 102);
+}
+
+.main-catalogo img {
+  width: 100px;
+  display: block;
+  margin: 40px auto 0px;
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.main-catalogo p {
+  width: 250px;
+  height: 48px;
+  font-family: 'Palanquin Dark';
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+
+  text-align: center;
+  margin: 10px auto 80px;
 }
