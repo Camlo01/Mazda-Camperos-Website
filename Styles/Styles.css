@@ -406,3 +406,22 @@ main {
   text-align: center;
   margin: 10px auto 80px;
 }
+
+/* ----- Contacto ----- */
+
+
+
+
+/* ----- footer ----- */
+
+footer {
+  background-color: #333132;
+}
+
+footer p {
+  text-align: center;
+  color: #BBBBBB;
+  font-family: "Palanquin Dark";
+  font-size: 1.8rem;
+padding: 18px 0px;
+}
