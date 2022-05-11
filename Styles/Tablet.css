@@ -1,0 +1,96 @@
+/* Configuracion general */
+
+#nosotros h2,
+#servicio h2,
+#catalogo h2 {
+    font-family: "Impact";
+    font-size: 3.5rem;
+    padding-left: calc(20%);
+    color: var(--Gray-title);
+}
+
+
+/*-------------------------------------------
+----------------- Header --------------------
+--------------------------------------------- */
+
+/* Inicio */
+.header-inicio h1 {
+    font-size: 6rem;
+    top: 130px;
+    width: 500px;
+    line-height: 6rem;
+}
+
+.nosotros--div {}
+
+.nosotros--div img {
+    width: 200px;
+    height: 200px
+}
+
+.nosotros--div h3 {
+    width: 260px;
+    font-size: 7rem;
+    line-height: 7rem;
+    top: 30px;
+}
+
+/* Sobre nosotros */
+.main-nosotros p {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.3rem;
+    width: 390px;
+}
+
+
+
+
+.nosotros--button p {
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 3.3rem;
+    text-align: center;
+    color: white;
+    position: relative;
+    left: -85px;
+}
+
+/*  Section Servicio */
+
+.main-servicio {}
+
+.main-servicio p {
+    font-size: 2rem;
+    line-height: 16.01px;
+    width: 330px;
+    text-align: justify;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+}
+
+/* Catálogo */
+
+.main-catalogo p {
+    font-size: 2rem;
+    width: 320px;
+}
+
+
+/* Contacto */
+
+.main-contacto {
+    display: flex;
+}
+
+.main-contacto .contacto-formulario,
+.main-contacto .contacto-visitanos {
+    min-height: 600px;
+    min-width: 50%;
+}
+
+/*-------------------------------------------
+----------------- Footer --------------------
+--------------------------------------------- */

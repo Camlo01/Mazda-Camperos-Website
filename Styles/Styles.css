@@ -102,14 +102,26 @@
 
 html {
   font-size: 62.5%;
-  height: 1500px;
   font-family: Palanquin Dark;
 }
+
+/* ----------------- Estilos generales ----------------- */
+
+/* Estilos de títulos de seccion */
+#nosotros h2,
+#servicio h2,
+#catalogo h2 {
+  font-family: "Impact";
+  font-size: 2rem;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  color: var(--Gray-title);
+}
+
 
 /* -----------------------------------------------------------------
 ---------------------------- HEADER --------------------------------
 -------------------------------------------------------------------- */
-
 
 /* ------- Barra de navegación ------- */
 
@@ -231,7 +243,6 @@ html {
   margin: 320px auto;
 }
 
-
 /* -----------------------------------------------------------------
 ---------------------------- MAIN  ---------------------------------
 -------------------------------------------------------------------- */
@@ -245,16 +256,17 @@ main {
 .main-nosotros {
   padding-top: 40px;
   box-shadow: 0px 3px 20px -6px #000000;
-  min-height: 620px;
+  /* min-height: 620px; */
+  padding-bottom: 90px;
 }
 
-.main-nosotros h2 {
+/* .main-nosotros h2 {
   font-family: "Impact";
   font-size: 2.5rem;
   position: relative;
   padding-left: 20px;
   color: var(--Gray-title);
-}
+} */
 
 .nosotros--div {
   display: flex;
@@ -282,7 +294,7 @@ main {
   font-style: normal;
   font-weight: 400;
   font-size: 1.6rem;
-  line-height: 16.01px;
+  line-height: 1.6rem;
   width: 270px;
   text-align: justify;
   margin: 0 auto;
@@ -295,7 +307,7 @@ main {
   color: var(--Golden);
 }
 
-.header--button {
+.nosotros--button {
   position: relative;
   display: block;
   text-decoration: none;
@@ -311,7 +323,7 @@ main {
   box-shadow: 0px 5px 17px -1px rgba(0, 0, 0, 0.61);
 }
 
-.header--button p {
+.nosotros--button p {
   font-family: Arial;
   font-weight: 700;
   font-size: 3.3rem;
@@ -325,18 +337,18 @@ main {
 
 .main-servicio {
   padding-top: 40px;
+  padding-bottom: 50px;
 }
 
 
-.main-servicio h2 {
+/* .main-servicio h2 {
   font-family: "Impact";
   font-size: 2.5rem;
   position: relative;
   padding-left: 20px;
   padding-bottom: 40px;
   color: rgb(102, 102, 102);
-
-}
+} */
 
 .main-servicio p {
   font-family: "Palanquin Dark";
@@ -366,6 +378,7 @@ main {
   box-shadow: 0px 3px 15px 0px #000000;
 }
 
+/* 
 .main-catalogo h2 {
 
   font-family: "Impact";
@@ -374,12 +387,12 @@ main {
   padding-left: 20px;
   padding-bottom: 40px;
   color: rgb(102, 102, 102);
-}
+} */
 
 .main-catalogo img {
   width: 100px;
   display: block;
-  margin: 40px auto 0px;
+  margin: 80px auto 0px;
   animation: rotation 8s infinite linear;
 }
 
@@ -403,7 +416,7 @@ main {
   line-height: 100%;
 
   text-align: center;
-  margin: 10px auto 80px;
+  margin: 10px auto 50px;
 }
 
 /* ----- Contacto ----- */
@@ -448,11 +461,8 @@ form input {
   margin: 5px auto;
   border: 3px solid #ffffff;
   border-radius: 4px;
-
   color: rgb(230, 230, 230);
   background: rgba(255, 255, 255, 0.150);
-
-
   font-family: 'Verdana';
   font-style: normal;
   font-weight: 700;
@@ -466,11 +476,8 @@ form textarea {
   height: 135px;
   border-radius: 4px;
   resize: none;
-
-
   color: rgb(230, 230, 230);
   background: rgba(255, 255, 255, 0.150);
-
   font-family: 'Verdana';
   font-style: normal;
   font-weight: 700;
@@ -481,8 +488,6 @@ form textarea {
 form input:focus,
 textarea:focus {
   outline: thick double #83080c;
-
-
 }
 
 form button {
@@ -519,17 +524,22 @@ form button {
   background-repeat: no-repeat;
 }
 
+.main-contacto iframe {
+  display: block;
+  margin: 10px auto 45px;
+}
 
+.visitanos--texto {
+  display: block;
+  margin: 0 auto;
+}
 
-
-
-
-
-
-
-
-
-
+.visitanos--texto p {
+  font-weight: 600;
+  font-family: "Open sans";
+  text-align: left;
+  padding: 3px 0;
+}
 
 /* -----------------------------------------------------------------
 ---------------------------- Footer --------------------------------
@@ -537,12 +547,27 @@ form button {
 
 footer {
   background-color: #333132;
+  height: 40px;
+  padding: 0px 30px;
+  width: 100%;
 }
 
-footer p {
-  text-align: center;
+.footer-div {
+  height: 40px;
+}
+
+.footer-div p {
+  background-color: #333132;
   color: #BBBBBB;
+  align-self: center;
   font-family: "Palanquin Dark";
   font-size: 1.8rem;
-  padding: 18px 0px;
+}
+
+.footer-left {
+  float: left;
+}
+
+.footer-right {
+  float: right;
 }
