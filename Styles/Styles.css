@@ -364,7 +364,6 @@ main {
   padding-bottom: 110px;
   -webkit-box-shadow: 0px 3px 15px 0px #000000;
   box-shadow: 0px 3px 15px 0px #000000;
-  margin-bottom: 100px;
 }
 
 .main-catalogo h2 {
@@ -408,11 +407,133 @@ main {
 }
 
 /* ----- Contacto ----- */
+/* Primer parte */
+.main-contacto {
+  height: auto;
+}
+
+.main-contacto h2 {
+  display: block;
+  margin: 0 auto;
+  font-family: "Impact";
+  font-size: 2.5rem;
+  color: white;
+  width: 260px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.main-contacto p {
+  font-size: 1.6rem;
+  font-family: "Palanquin Dark";
+  font-weight: 400;
+  line-height: 1.6rem;
+  color: white;
+  margin: 0 auto;
+  padding: 3px 0 25px;
+}
+
+form {
+  padding-top: 1px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  min-width: 230px;
+  max-width: 240px;
+}
+
+form input {
+  padding: 8px;
+  width: 100%;
+  margin: 5px auto;
+  border: 3px solid #ffffff;
+  border-radius: 4px;
+
+  color: rgb(230, 230, 230);
+  background: rgba(255, 255, 255, 0.150);
+
+
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+form textarea {
+  margin: 5px 0;
+  padding: 8px 0px 0px 8px;
+  border: 3px solid #ffffff;
+  height: 135px;
+  border-radius: 4px;
+  resize: none;
+
+
+  color: rgb(230, 230, 230);
+  background: rgba(255, 255, 255, 0.150);
+
+  font-family: 'Verdana';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+
+}
+
+form input:focus,
+textarea:focus {
+  outline: thick double #83080c;
+
+
+}
+
+form button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: rgba(168, 50, 40, 1);
+  color: white;
+  border: 3px solid #E4E4E4;
+  border-radius: 10px;
+  font-size: 1.7rem;
+}
+
+.main-contacto .contacto-formulario {
+  min-height: 580px;
+  background-image: url(../images/phone/contacto/Contacto1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.main-contacto p {
+  width: 250px;
+  text-align: center;
+}
+
+/* Segunda parte */
+
+
+.main-contacto .contacto-visitanos {
+  min-height: 580px;
+  background-image: url(../images/phone/contacto/encuentranos1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 
 
 
-/* ----- footer ----- */
+
+
+
+
+
+
+
+
+
+/* -----------------------------------------------------------------
+---------------------------- Footer --------------------------------
+-------------------------------------------------------------------- */
 
 footer {
   background-color: #333132;
@@ -423,5 +544,5 @@ footer p {
   color: #BBBBBB;
   font-family: "Palanquin Dark";
   font-size: 1.8rem;
-padding: 18px 0px;
+  padding: 18px 0px;
 }
