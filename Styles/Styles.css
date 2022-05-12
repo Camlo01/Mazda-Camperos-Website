@@ -109,6 +109,7 @@ html {
   font-size: 62.5%;
   font-family: Palanquin Dark;
   background-color: #333132;
+  scroll-behavior: smooth;
 }
 
 /* ----------------- Estilos generales ----------------- */
@@ -188,6 +189,10 @@ html {
     text-align: center;
     list-style: none;
     border: 1px solid var(--Gray-Dark);
+  }
+
+  .nav-item-divisor {
+    display: none;
   }
 
   .header-navbar li a {

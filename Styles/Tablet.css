@@ -44,9 +44,6 @@
     width: 390px;
 }
 
-
-
-
 .nosotros--button p {
     font-family: Arial;
     font-weight: 700;
@@ -91,6 +88,49 @@
     min-width: 50%;
 }
 
-/*-------------------------------------------
------------------ Footer --------------------
---------------------------------------------- */
+@media (min-width: 1004px) {
+    #check-navbar {
+        display: none;
+    }
+
+    .button-responsive-menu {
+        display: none;
+    }
+
+    .nav-item-divisor {
+        color: var(--Red-Medium);
+    }
+
+    /* ---------------------------------------------------------------
+  ------------------------ HEADER -------------------------------
+  --------------------------------------------------------------- */
+    .navbar-nombre {
+        width: 300px;
+    }
+
+    .header-nav {
+        display: inline-flex;
+    }
+
+    .header-navbar ul {
+
+        list-style: none;
+    }
+
+    .header-navbar li {
+        display: inline;
+    }
+
+    .header-navbar li a {
+        color: var(--Red-Medium);
+        text-decoration: none;
+        padding: 14.5px;
+    }
+
+    .header-navbar li a:hover {
+        background-color: var(--Red-Dark);
+        color: var(--Red-Dark-Extreme);
+    }
+
+
+}
