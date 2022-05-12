@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -10,12 +10,11 @@
     <meta name="author" content="Camilo Beltrán">
     <title>Mazda Camperos</title>
     <!-- Fuentes -->
-
-
+    <link rel="stylesheet" href="Styles/fonts.css">
     <!-- Hojas de estilo -->
     <link rel="stylesheet" href="Styles/Styles.css">
     <link rel="stylesheet" href="Styles/Tablet.css" media="(min-width: 640px)">
-    <!-- JavaScript -->
+    <link rel="stylesheet" href="Styles/Pc.css" media="(min-width: 1000px">
 
 </head>
 
@@ -41,39 +40,47 @@
         </div>
         <div class="header-inicio">
             <h1>Repuestos de vehículos</h1>
+            <!-- GIF flecha -->
             <a href="#nosotros"><img src="images/phone/inicio/flecha-abajo.gif" alt="Flecha abajo"></a>
         </div>
-        <!--  Texto -->
-        <!-- GIF flecha -->
     </header>
 
     <main>
         <section class="main-nosotros" id="nosotros">
             <h2>Sobre Nosotros</h2>
-            <div class="nosotros--div">
-                <img src="images/phone/nosotros/25-aniversario.png" alt="insignia de 25 años">
-                <h3>Más de 25 años</h3>
+            <div class="nosotros--container-divs">
+                <div class="nosotros--div">
+                    <img src="images/phone/nosotros/25-aniversario.png" alt="insignia de 25 años">
+                    <h3>Más de 25 años</h3>
+                </div>
+                <div class="nosotros--body">
+                    <p>Grupos de empresas Colombianas del llano con más de 25 años de <span>experiencia</span> en el
+                        sector
+                        automotríz
+                        especializados en la venta de repuestos automovilísticos de las marcas más usadas por los
+                        colombianos
+                    </p>
+                    <a class="nosotros--button" href="#contacto">
+                        <p>Contactar</p>
+                    </a>
+                </div>
             </div>
-            <p>Grupos de empresas Colombianas del llano con más de 25 años de <span>experiencia</span> en el sector
-                automotríz
-                especializados en la venta de repuestos automovilísticos de las marcas más usadas por los colombianos
-            </p>
-            <a class="nosotros--button" href="#contacto">
-                <p>Contactar</p>
-            </a>
         </section>
+
         <section class="main-servicio" id="servicio">
             <h2>Servicio</h2>
             <p>Ofrecemos repuestos de cualquier parte de tu vehículo que necesites sin importar la marca y el modelo que
                 sea</p>
             <img src="images/phone/Servicios/marcas.png" alt="Marcas de los productos">
         </section>
+
         <section class="main-catalogo" id="catalogo">
             <h2>Catálogo</h2>
             <img src="./images/phone/catalogo/engranaje.png" alt="Engranaje">
             <p>Consulta más adelante el catálogo de los productos que necesites
                 para tu vehículo</p>
         </section>
+
         <section class="main-contacto" id="contacto">
             <div class="contacto-formulario">
                 <h2>Contáctanos</h2>
@@ -92,7 +99,7 @@
                 <p>Serás atendido por uno de nuestros asesores</p>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!3m2!1ses-419!2sco!4v1652219018188!5m2!1ses-419!2sco!6m8!1m7!1s1f3b7qYlAQ0fd7bpdb28gw!2m2!1d4.14497516822948!2d-73.63330310681006!3f22.48627157426051!4f-7.817280121411855!5f0.7820865974627469"
-                    width="258" height="196" style="border:0;   " allowfullscreen="" loading="lazy"
+                    width="258" height="196" " allowfullscreen="" loading=" lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <div class="visitanos--texto">
                     <p>Dirección: Villavicencio - Meta</p>
@@ -111,9 +118,6 @@
             <p class="footer-right">por SystemWork</p>
         </div>
     </footer>
-
-
-
 
 </body>
 
