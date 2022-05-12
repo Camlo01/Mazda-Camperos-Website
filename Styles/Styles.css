@@ -78,6 +78,11 @@
   src: url(../Fonts/ozda/ozda.ttf);
 }
 
+@font-face {
+  font-family: "Open sans";
+  src: url(../Fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+
 /* Variables de colores */
 /* COLORES */
 :root {
@@ -511,7 +516,6 @@ form button {
 
 /* Segunda parte */
 
-
 .main-contacto .contacto-visitanos {
   min-height: 580px;
   background-image: url(../images/phone/contacto/encuentranos1.png);
@@ -558,15 +562,13 @@ footer {
 
 @media (min-width: 400px) {
 
-
   .footer-div {
     height: 40px;
   }
 
-
-
   .footer-left {
     float: left;
+
   }
 
   .footer-right {
