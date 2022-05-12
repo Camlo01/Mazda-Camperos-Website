@@ -1,0 +1,36 @@
+/* Sobre nosotros */
+
+.main-nosotros {
+    padding-top: 120px;
+    padding-bottom: 100px;
+}
+
+.nosotros--container-divs {
+    display: flex;
+    min-width: 800px;
+    max-width: 1130px;
+    margin: 50px auto;
+}
+
+.nosotros--div {
+    margin: 0 auto;
+}
+
+.nosotros--body {
+    margin: 0 auto;
+}
+
+/* ----- Servicio ----- */
+.main-servicio {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+
+/* ----- Catálogo ----- */
+.main-catalogo {
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+/* ----- Contacto ----- */
