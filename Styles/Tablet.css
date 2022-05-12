@@ -9,12 +9,12 @@
     color: var(--Gray-title);
 }
 
-
 /*-------------------------------------------
 ----------------- Header --------------------
 --------------------------------------------- */
 
-/* Inicio */
+/* ----- Inicio ----- */
+
 .header-inicio h1 {
     font-size: 6rem;
     top: 130px;
@@ -22,7 +22,7 @@
     line-height: 6rem;
 }
 
-.nosotros--div {}
+/* ----- Sobre nosotros ----- */
 
 .nosotros--div img {
     width: 200px;
@@ -33,10 +33,9 @@
     width: 260px;
     font-size: 7rem;
     line-height: 7rem;
-    top: 30px;
+    top: 20px;
 }
 
-/* Sobre nosotros */
 .main-nosotros p {
     font-weight: 600;
     font-size: 2rem;
@@ -54,7 +53,7 @@
     left: -85px;
 }
 
-/*  Section Servicio */
+/* ----- Section Servicio ----- */
 
 .main-servicio {}
 
@@ -68,15 +67,14 @@
 
 }
 
-/* Catálogo */
+/* ----- Catálogo ------ */
 
 .main-catalogo p {
     font-size: 2rem;
     width: 320px;
 }
 
-
-/* Contacto */
+/* ----- Contacto ----- */
 
 .main-contacto {
     display: flex;
@@ -102,8 +100,8 @@
     }
 
     /* ---------------------------------------------------------------
-  ------------------------ HEADER -------------------------------
-  --------------------------------------------------------------- */
+------------------------ HEADER -------------------------------
+--------------------------------------------------------------- */
     .navbar-nombre {
         width: 300px;
     }
@@ -131,6 +129,5 @@
         background-color: var(--Red-Dark);
         color: var(--Red-Dark-Extreme);
     }
-
 
 }
