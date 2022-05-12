@@ -1,88 +1,3 @@
-/* verdana */
-@font-face {
-  font-family: "Verdana";
-  src: url(../Fonts/verdana-font-family/verdana.ttf);
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Verdana";
-  src: url(../Fonts/verdana-font-family/verdana-bold.ttf);
-  font-weight: 800;
-}
-
-/* Palatino */
-@font-face {
-  font-family: "Palatino";
-  src: url(../Fonts/Palatino/pala.ttf);
-  font-weight: 300;
-}
-
-
-@font-face {
-  font-family: "Palatino";
-  src: url(../Fonts/Palatino/palab.ttf);
-  font-weight: 500;
-}
-
-/* Quicksand */
-
-@font-face {
-  font-family: "Quicksand";
-  src: url(../Fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
-}
-
-
-/* Franklin Gothic Demi */
-@font-face {
-  font-family: "Franklin Gothic Demi";
-  src: url(../Fonts/Franklin_Gothic_Demi_Regular/Franklin\ Gothic\ Demi\ Regular.ttf);
-}
-
-/* Impact */
-@font-face {
-  font-family: "Impact";
-  src: url(../Fonts/impact/impact.ttf);
-}
-
-/* Palaquin Dark */
-
-@font-face {
-  font-family: "Palanquin Dark";
-  src: url(../Fonts/Palanquin_Dark/PalanquinDark-Regular.ttf);
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Palanquin Dark";
-  src: url(../Fonts/Palanquin_Dark/PalanquinDark-Medium.ttf);
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "Palanquin Dark";
-  src: url(../Fonts/Palanquin_Dark/PalanquinDark-SemiBold.ttf);
-  font-weight: 700;
-}
-
-@font-face {
-  font-family: "Palanquin Dark";
-  src: url(../Fonts/Palanquin_Dark/PalanquinDark-Bold.ttf);
-  font-weight: 800;
-}
-
-/* Ozda */
-
-@font-face {
-  font-family: "Ozda";
-  src: url(../Fonts/ozda/ozda.ttf);
-}
-
-@font-face {
-  font-family: "Open sans";
-  src: url(../Fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf);
-}
-
 /* Variables de colores */
 /* COLORES */
 :root {
@@ -90,14 +5,11 @@
   --Red-Medium: #ae0e14;
   --Red-Dark: #83080c;
   --Red-Dark-Extreme: #2b0303;
-
   --Black-Font: #000;
   --Gray-Dark: #333132;
   --Gray-title: rgb(102, 102, 102);
-
   --Golden: #daab42;
 }
-
 
 * {
   box-sizing: border-box;
@@ -115,6 +27,11 @@ html {
 /* ----------------- Estilos generales ----------------- */
 
 /* Estilos de títulos de seccion */
+
+#check-navbar {
+  display: none;
+}
+
 #nosotros h2,
 #servicio h2,
 #catalogo h2 {
@@ -125,11 +42,9 @@ html {
   color: var(--Gray-title);
 }
 
-
 /* -----------------------------------------------------------------
 ---------------------------- HEADER --------------------------------
 -------------------------------------------------------------------- */
-
 /* ------- Barra de navegación ------- */
 
 .header-nav {
@@ -170,11 +85,8 @@ html {
   float: right;
 }
 
-#check-navbar {
-  display: none;
-}
 
-@media (max-width: 800px) {
+@media (max-width: 1003px) {
   .header-navbar {
     display: none;
     position: fixed;
@@ -270,14 +182,14 @@ main {
 .main-nosotros {
   padding-top: 40px;
   box-shadow: 0px 3px 20px -6px #000000;
-  /* min-height: 620px; */
+  /* min-height: 620px;  Estilo de referencia */
   padding-bottom: 90px;
 }
 
 .nosotros--div {
   display: flex;
   justify-content: center;
-  margin: 45px auto;
+  margin: 15px auto;
 }
 
 .nosotros--div img {
@@ -304,10 +216,8 @@ main {
   width: 270px;
   text-align: justify;
   margin: 0 auto;
-  padding-bottom: 90px;
-
+  padding-bottom: 70px;
 }
-
 
 .main-nosotros p span {
   color: var(--Golden);
@@ -346,16 +256,6 @@ main {
   padding-bottom: 50px;
 }
 
-
-/* .main-servicio h2 {
-  font-family: "Impact";
-  font-size: 2.5rem;
-  position: relative;
-  padding-left: 20px;
-  padding-bottom: 40px;
-  color: rgb(102, 102, 102);
-} */
-
 .main-servicio p {
   font-family: "Palanquin Dark";
   font-style: normal;
@@ -366,7 +266,6 @@ main {
   text-align: justify;
   margin: 0 auto;
   padding-bottom: 30px;
-
 }
 
 .main-servicio img {
@@ -383,17 +282,6 @@ main {
   -webkit-box-shadow: 0px 3px 15px 0px #000000;
   box-shadow: 0px 3px 15px 0px #000000;
 }
-
-/* 
-.main-catalogo h2 {
-
-  font-family: "Impact";
-  font-size: 2.5rem;
-  position: relative;
-  padding-left: 20px;
-  padding-bottom: 40px;
-  color: rgb(102, 102, 102);
-} */
 
 .main-catalogo img {
   width: 100px;
@@ -416,11 +304,9 @@ main {
   width: 250px;
   height: 48px;
   font-family: 'Palanquin Dark';
-
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
-
   text-align: center;
   margin: 10px auto 50px;
 }
@@ -531,6 +417,8 @@ form button {
 
 .main-contacto iframe {
   display: block;
+  border: 0;
+  border-radius: 8px;
   margin: 10px auto 45px;
 }
 
