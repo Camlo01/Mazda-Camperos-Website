@@ -19,13 +19,12 @@
 
 html {
   font-size: 62.5%;
-  font-family: Palanquin Dark;
   background-color: #333132;
+  font-family: Palanquin Dark;
   scroll-behavior: smooth;
 }
 
 /* ----------------- Estilos generales ----------------- */
-
 /* Estilos de títulos de seccion */
 
 #check-navbar {
@@ -220,7 +219,7 @@ main {
 }
 
 .main-nosotros p span {
-  color: var(--Golden);
+  color: red;
 }
 
 .nosotros--button {
