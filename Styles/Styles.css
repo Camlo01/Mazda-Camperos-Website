@@ -139,7 +139,7 @@ html {
   top: 59px;
   min-height: 568px;
   width: 100%;
-  background-image: url("../images/phone/inicio/Inicio-wallpaper.jpg");
+  background-image: url("../images/phone/inicio/Inicio-wallpaper.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -393,7 +393,7 @@ form button {
 
 .main-contacto .contacto-formulario {
   min-height: 580px;
-  background-image: url(../images/phone/contacto/Contacto1.png);
+  background-image: url("../images/phone/contacto/Contacto-left.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -408,7 +408,7 @@ form button {
 
 .main-contacto .contacto-visitanos {
   min-height: 580px;
-  background-image: url(../images/phone/contacto/encuentranos1.png);
+  background-image: url("../images/phone/contacto/Contacto-right.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
