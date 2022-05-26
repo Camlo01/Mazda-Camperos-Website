@@ -239,9 +239,10 @@ main {
   box-shadow: 0px 5px 17px -1px rgba(0, 0, 0, 0.61);
 }
 
-.nosotros--button:hover{
+.nosotros--button:hover {
   --Golden: #a07e33;
 }
+
 .nosotros--button p {
   font-family: Arial;
   font-weight: 700;
@@ -383,6 +384,7 @@ form textarea {
 form input:focus,
 textarea:focus {
   outline: thick double #83080c;
+  background-color: rgba(0, 0, 0, 0.40);
 }
 
 form button {
@@ -393,6 +395,14 @@ form button {
   border: 3px solid #E4E4E4;
   border-radius: 10px;
   font-size: 1.7rem;
+}
+
+form button:hover {
+  background-color: var(--Red-Dark);
+}
+
+form button:active{
+  background-color: var(--Red-Dark-Extreme);
 }
 
 .main-contacto .contacto-formulario {
@@ -435,6 +445,15 @@ form button {
   font-family: "Open sans";
   text-align: left;
   padding: 3px 0;
+}
+
+.visitanos--texto a {
+  color: white;
+  text-decoration: none;
+}
+
+.visitanos--texto a:hover {
+  color: var(--Red-Light);
 }
 
 /* -----------------------------------------------------------------
